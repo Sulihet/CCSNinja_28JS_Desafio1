@@ -1,36 +1,43 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 .pazioli-nav__container {
-  display: flex;
   height: 90px;
   width: 90%;
   max-width: 1200px;
   padding: 25px;
   margin: 0 auto;
   font-size: 14px;
-  align-items: center;
   font-family: "Raleway", sans-serif;
 }
-
-nav {
-  justify-content: space-between;
+.pazioli-nav__container .pazioli-nav__list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
 }
-
-.pazioli-nav__img {
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__logo .pazioli-nav__img {
   width: 88px;
   height: 44px;
 }
-
-.pazioli-nav__link {
+.pazioli-nav__container .pazioli-nav__list .pull__right {
+  margin-right: auto;
+}
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__link {
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
   color: #000;
 }
-
-.pazioli-nav__link-button {
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__link:hover {
+  cursor: pointer;
+  color: rgb(56, 56, 56);
+}
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__link-button {
   width: 129px;
   height: 32px;
   background-color: #000;
@@ -39,17 +46,12 @@ nav {
   font-weight: 700;
   font-size: 14px;
 }
-
-.pazioli-nav__link:hover {
-  cursor: pointer;
-}
-
-.pazioli-nav__link-button:hover {
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__link-button:hover {
   cursor: pointer;
   background-color: rgb(56, 56, 56);
+  color: #fff;
 }
-
-.pazioli-nav__icon {
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__carrito .pazioli-nav__icon {
   width: 20px;
   height: 20px;
 }
