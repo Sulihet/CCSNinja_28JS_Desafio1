@@ -1,0 +1,60 @@
+@import './fonts/font.scss';
+
+
+*{
+    font-family: $primary-font;
+    font-size: 16px;
+}
+
+.other-models__title{
+    font-family: $title-font;
+    font-size: 32px;
+}
+
+.piano__name{
+    font-family: $title-font;
+    font-size: 24px;
+}
+
+.model__piano{
+    border: black solid 2px;
+    width: 280px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.purchase-button__container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price__button{
+    height: 35px;
+    width: 180px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.price__bold{
+    font-weight: 600;
+
+}
+
+.cart__button{
+    height: 35px;
+    width: 35px;
+    background: black;
+    border:none;
+    border-radius: 5px;
+}
+
+.piano__description{
+    display:flex;
+    flex-direction: row;
+    font-size: 14px;
+    justify-content:space-evenly;
+}
+
+li{
+    font-size: 14px;
+}
