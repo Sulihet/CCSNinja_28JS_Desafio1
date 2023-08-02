@@ -1,12 +1,12 @@
 @charset "UTF-8";
 .confirm {
-  font-family: "Raleway";
+  font-family: “Raleway”;
   font-weight: 700;
   font-size: 16px;
 }
 
-.title {
-  font-family: "Abril Fatface";
+.new_model_title {
+  font-family: “Abril Fatface”;
   font-weight: 400;
   font-size: 32px;
 }
