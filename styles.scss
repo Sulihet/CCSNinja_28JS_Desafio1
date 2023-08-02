@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+.pazioli-nav__container{
+    display: flex;
+    height: 90px;
+    width: 90%;
+    max-width: 1200px;
+    padding: 25px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+nav{
+    justify-content: space-between;
+}
+
+.pazioli-nav__img{
+    width: 88px;
+    height: 44px;
+}
+
+.pazioli-nav__link{
+    text-decoration: none;
+}
+
+.pazioli-nav__link-button{
+    width: 129px;
+    height: 32px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.pazioli-nav__link:hover{
+    cursor: pointer;
+}
+
+.pazioli-nav__icon{
+    width: 20px;
+    height: 20px;
+}
+
+
+@media (max-width:768px){
+    a , button{
+        display:none;
+    }
+}
+
+
+
+
