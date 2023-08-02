@@ -1,0 +1,106 @@
+.confirm {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.title {
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.card_new_model {
+  text-align: center;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(0, 0, 0, 0.9) 37.19%, rgba(0, 0, 0, 0.75) 76.04%, #ffffff 100%);
+  margin-bottom: 70px;
+}
+.card_new_model .bg_image_pianist {
+  display: flex;
+  justify-content: flex-end;
+}
+.card_new_model .background__piano {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.card_new_model .pianist {
+  position: absolute;
+  width: 100%;
+  opacity: 0.1;
+}
+.card_new_model .info {
+  color: white;
+  padding: 0 1rem;
+  padding-top: 1rem;
+}
+.card_new_model .Rating__star {
+  width: 20px;
+  height: 17px;
+  margin-left: 6px;
+}
+.card_new_model .Rating {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 25px;
+}
+.card_new_model .description {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+.card_new_model li {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  display: inline;
+}
+.card_new_model li a {
+  text-decoration: none;
+  color: white;
+}
+.card_new_model .options {
+  margin-bottom: 2rem;
+  padding-left: 0;
+}
+.card_new_model .options li {
+  padding: 10px;
+}
+.card_new_model .confirm {
+  width: 18rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  background-color: black;
+}
+
+@media screen and (min-width: 780px) {
+  .card_new_model {
+    margin-top: 180px;
+  }
+  .card_new_model .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .card_new_model .pianist {
+    width: 100%;
+    height: 39rem;
+  }
+  .card_new_model .background__piano {
+    width: 60%;
+  }
+  .card_new_model .background__piano img {
+    height: 40rem;
+    width: 40rem;
+    margin-top: -75px;
+  }
+  .card_new_model .info {
+    text-align: left;
+    width: 37%;
+    height: 28rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
