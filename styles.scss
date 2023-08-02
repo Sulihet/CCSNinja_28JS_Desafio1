@@ -10,9 +10,11 @@
     height: 32px;
     background-color: $primary-button-color;
     color: #fff;
+    border: none;
     border-radius: 10px;
     font-weight: 700;
     font-size: 14px;
+    letter-spacing: .5px;
     cursor: pointer;
 }
 
@@ -24,6 +26,7 @@
     margin: 0 auto;
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: .5px;
 
     .pazioli-nav__list{
         display: flex;
@@ -46,7 +49,6 @@
 
     .pazioli-nav__link{
         text-decoration: none;
-        font-size: 14px;
         font-weight: 600;
         color: #000;
 
@@ -57,16 +59,9 @@
     }
 
     .pazioli-nav__link-button{
-        width: 129px;
-        height: 32px;
-        background-color: $primary-button-color;
-        color: #fff;
-        border-radius: 10px;
-        font-weight: 700;
-        font-size: 14px;
+        @include standar-button;
 
         &:hover{
-            cursor: pointer;
             background-color:$secondary-button-color;
             color: #fff;
         }
