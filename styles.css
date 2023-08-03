@@ -244,33 +244,4 @@ li {
     width: 251px;
     height: 194px;
   }
-}
-
-.intro__slogan {
-  color: rgb(133, 133, 133);
-  size: 16px;
-}
-
-.intro__title {
-  size: 32px;
-  color: rgb(0, 0, 0);
-}
-
-.intro__courses {
-  width: 129px;
-  height: 32px;
-  border-radius: 8px;
-  border: none;
-  color: white;
-  background: black;
-}
-
-.intro__get-piano {
-  width: 129px;
-  height: 32px;
-  border-radius: 8px;
-  border: 1px;
-  border-color: black;
-  color: black;
-  background: white;
 }/*# sourceMappingURL=styles.css.map */
