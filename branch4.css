@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 320px;
+  width: 100%;
   padding: 10px;
 }
 
@@ -23,7 +23,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   /* justify-content: center;*/
 }
 
@@ -32,6 +32,8 @@
   font-family: "Abril Fatface";
   font-size: 24px;
   justify-content: flex-end;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .model__piano {
@@ -92,7 +94,7 @@
   display: flex;
   font-size: 14px;
   justify-content: space-around;
-  padding: 0px;
+  padding: 5% 0%;
   flex-wrap: wrap;
 }
 
