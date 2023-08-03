@@ -12,6 +12,7 @@
     justify-content: center;
     width: 320px;
     padding: 10px;
+    margin: auto;
 
 }
 
@@ -240,4 +241,31 @@ li{
         height: 28rem;
       }
     }
+
+    .other-models__container{
+      width: 780px;
+      margin: auto;
+    }
+    
+    .model__card{
+      flex-direction: row;
+    }
+
+    .model__piano{
+      height:260px;
+      margin-bottom: 90px;
+      margin-top:  90px;
+    }
+
+    .model-piano__image {
+      z-index:1;
+      position: relative;
+      top: -100px;
+    }
+
+    .model-piano-info__container{
+      position: relative;
+      top: -90px;
+    }
+
   }
