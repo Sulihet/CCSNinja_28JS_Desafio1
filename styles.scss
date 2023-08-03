@@ -73,6 +73,7 @@
     background-color: white;
     border-radius: 5px;
     margin: 5px;
+    border: black solid;
 }
 
 .price__bold{
@@ -262,7 +263,7 @@ li{
       height:260px;
       margin-bottom: 90px;
       margin-top:  90px;
-     /* justify-content: space-evenly;*/
+      justify-content: space-evenly;
     }
 
     .model-piano__image {
