@@ -1,0 +1,99 @@
+@mixin containers__properties {display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;}
+@mixin font__regular-size {font-size: 14px;}
+
+.about-us__container {display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #888888, #f6f6f6);
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.nosotros__container {@include containers__properties()}
+
+.bold__font {font-weight: bold; font-family: 'Times New Roman', Times, serif;
+                font-size: 16px;}
+
+.about-us__buttons {
+    background-color: transparent;
+    border: 0px; padding: 0px; font-size: 12px;
+    cursor: pointer; margin: 10px; font-family: 'Raleway', sans-serif;}
+
+.contactanos__container {@include containers__properties()}
+.ubication__text {margin: 0px; @include font__regular-size();}
+.copyrigth__container {align-items: center; justify-content: center; flex-direction: row;}
+.pazioli {display: inline-block; font-size: 12px;}
+.copyrigth {display: inline-block; font-size: 12px;}
+.last__container {@include containers__properties(); margin-bottom: 25px;}
+.Powered {margin: 0px; @include font__regular-size()}
+.DevKoore {margin: 0px; font-weight: bold; font-size: 16px;}
+.separador {width: 100%; height: 100px;}
+.plazioli__container {width: 33%; justify-content: center; align-items: center; display: flex; position: relative;}
+.space__container {width: 33%;}
+.logo_piano, .Vector {position: absolute;}
+.logo_piano {z-index: 1;}
+.Vector {width: 130px; height: 100px;}
+.social-media__container {align-items: center; justify-content: center; display: flex; flex-direction: row;
+width: 33%;}
+.vector-media {margin: 10px; cursor: pointer;}
+.social-media__container-mobile {align-items: center; justify-content: center; display: flex; flex-direction: row;}
+.plazioli__container-mobile {justify-content: center; align-items: center; display: flex; position: relative; height: 120px;}
+
+// breaking points desk-----------
+
+@media screen and (min-width: 720px) {
+    .about-us__container {
+        display: flex; justify-content: space-between;
+        flex-direction: row; flex-wrap: wrap;
+        align-items: stretch;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .nosotros__container {
+        display: flex; justify-content: flex-start;
+        width: 33%; align-items: stretch;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .contactanos__container {
+        display: flex; justify-content: flex-start;
+        width: 33%; align-items: stretch;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .about-us__buttons {
+        margin: 5px; width: fit-content;
+        margin-left: 0px;
+    }
+    
+}
+
+@media screen and (min-width: 720px) {
+    .copyrigth__container {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+  .plazioli__container-mobile {display: none;}
+  .social-media__container-mobile {display: none;}
+}
+
+// breaking points mobile-----------
+
+@media screen and (max-width: 719px) {
+    .space__container {display: none;}
+    .plazioli__container {display: none;}
+    .social-media__container {display: none;}
+}
+
+
+//-------------------------//
+
+// .partners__button {background-color: black;}

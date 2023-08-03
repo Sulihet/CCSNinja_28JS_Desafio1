@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+.about-us__container {
+=======
 * {
   margin: 0;
   padding: 0;
@@ -157,6 +160,7 @@
   margin-bottom: 70px;
 }
 .card_new_model .bg_image_pianist {
+>>>>>>> main
   display: flex;
   justify-content: flex-end;
 }
@@ -210,6 +214,117 @@
 .card_new_model .options li {
   padding: 10px;
 }
+<<<<<<< HEAD
+
+.plazioli__container {
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.space__container {
+  width: 33%;
+}
+
+.logo_piano, .Vector {
+  position: absolute;
+}
+
+.logo_piano {
+  z-index: 1;
+}
+
+.Vector {
+  width: 130px;
+  height: 100px;
+}
+
+.social-media__container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+}
+
+.vector-media {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.social-media__container-mobile {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.plazioli__container-mobile {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  height: 120px;
+}
+
+@media screen and (min-width: 720px) {
+  .about-us__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+}
+@media screen and (min-width: 720px) {
+  .nosotros__container {
+    display: flex;
+    justify-content: flex-start;
+    width: 33%;
+    align-items: stretch;
+  }
+}
+@media screen and (min-width: 720px) {
+  .contactanos__container {
+    display: flex;
+    justify-content: flex-start;
+    width: 33%;
+    align-items: stretch;
+  }
+}
+@media screen and (min-width: 720px) {
+  .about-us__buttons {
+    margin: 5px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 720px) {
+  .copyrigth__container {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 720px) {
+  .plazioli__container-mobile {
+    display: none;
+  }
+  .social-media__container-mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 719px) {
+  .space__container {
+    display: none;
+  }
+  .plazioli__container {
+    display: none;
+  }
+  .social-media__container {
+    display: none;
+=======
 .card_new_model .confirm_piano {
   width: 18rem;
   height: 2.5rem;
@@ -244,5 +359,6 @@
     text-align: left;
     width: 37%;
     height: 28rem;
+>>>>>>> main
   }
 }/*# sourceMappingURL=styles.css.map */
