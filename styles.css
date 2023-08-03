@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 768px) {
-  a, button {
+  a, .pazioli-nav__link {
     display: none;
   }
 }
@@ -210,13 +210,14 @@
 .card_new_model .options li {
   padding: 10px;
 }
-.card_new_model .confirm {
+.card_new_model .confirm_piano {
   width: 18rem;
   height: 2.5rem;
   border-radius: 10px;
-  border: 0;
+  border: none;
+  font-family: "Poppins";
   color: white;
-  background-color: black;
+  background: black;
 }
 
 @media screen and (min-width: 600px) {
