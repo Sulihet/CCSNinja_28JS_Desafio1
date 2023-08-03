@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-.about-us__container {
-=======
 * {
   margin: 0;
   padding: 0;
@@ -160,7 +157,6 @@
   margin-bottom: 70px;
 }
 .card_new_model .bg_image_pianist {
->>>>>>> main
   display: flex;
   justify-content: flex-end;
 }
@@ -214,7 +210,125 @@
 .card_new_model .options li {
   padding: 10px;
 }
-<<<<<<< HEAD
+.card_new_model .confirm_piano {
+  width: 18rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: none;
+  font-family: "Poppins";
+  color: white;
+  background: black;
+}
+
+@media screen and (min-width: 600px) {
+  .card_new_model {
+    margin-top: 180px;
+  }
+  .card_new_model .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .card_new_model .pianist {
+    width: 100%;
+    height: 39rem;
+  }
+  .card_new_model .background__piano {
+    width: 60%;
+  }
+  .card_new_model .background__piano img {
+    height: 40rem;
+    width: 40rem;
+    margin-top: -75px;
+  }
+  .card_new_model .info {
+    text-align: left;
+    width: 37%;
+    height: 28rem;
+  }
+}
+.about-us__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #888888, #f6f6f6);
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+}
+
+.nosotros__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bold__font {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.about-us__buttons {
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+.contactanos__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ubication__text {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.copyrigth__container {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.pazioli {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.copyrigth {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.last__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.Powered {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.DevKoore {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.separador {
+  width: 100%;
+  height: 100px;
+}
 
 .plazioli__container {
   width: 33%;
@@ -324,41 +438,5 @@
   }
   .social-media__container {
     display: none;
-=======
-.card_new_model .confirm_piano {
-  width: 18rem;
-  height: 2.5rem;
-  border-radius: 10px;
-  border: none;
-  font-family: "Poppins";
-  color: white;
-  background: black;
-}
-
-@media screen and (min-width: 600px) {
-  .card_new_model {
-    margin-top: 180px;
-  }
-  .card_new_model .container {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .card_new_model .pianist {
-    width: 100%;
-    height: 39rem;
-  }
-  .card_new_model .background__piano {
-    width: 60%;
-  }
-  .card_new_model .background__piano img {
-    height: 40rem;
-    width: 40rem;
-    margin-top: -75px;
-  }
-  .card_new_model .info {
-    text-align: left;
-    width: 37%;
-    height: 28rem;
->>>>>>> main
   }
 }/*# sourceMappingURL=styles.css.map */
