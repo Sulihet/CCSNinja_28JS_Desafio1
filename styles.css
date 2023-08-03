@@ -185,7 +185,8 @@
 .other-models__title {
   font-family: "Abril Fatface";
   font-size: 32px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .model__card {
