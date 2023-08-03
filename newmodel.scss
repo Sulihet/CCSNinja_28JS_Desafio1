@@ -1,111 +1,112 @@
 //Estilos Hector
 .confirm {
+  font-family: $primary-font;
+  font-weight: 700;
+  font-size: 16px;
+}
+.new_model_title {
+  font-family: $title-font;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.card_new_model {
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(0, 0, 0, 0.9) 37.19%,
+    rgba(0, 0, 0, 0.75) 76.04%,
+    #ffffff 100%
+  );
+  margin-bottom: 70px;
+  .bg_image_pianist {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .background__piano {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .pianist {
+    position: absolute;
+    width: 100%;
+    opacity: 0.1;
+  }
+  .info {
+    color: white;
+    padding: 0 1rem;
+    padding-top: 1rem;
+  }
+  .Rating__star {
+    width: 20px;
+    height: 17px;
+    margin-left: 6px;
+  }
+  .Rating {
+    font-family: $primary-font;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 25px;
+  }
+  .description {
+    font-family: $primary-font;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 2rem;
+  }
+  li {
     font-family: $primary-font;
     font-weight: 700;
     font-size: 16px;
-  }
-  .new_model_title {
-    font-family: $title-font;
-    font-weight: 400;
-    font-size: 32px;
-  }
-  
-  .card_new_model {
-    text-align: center;
-    background: linear-gradient(
-      180deg,
-      #ffffff 0%,
-      rgba(0, 0, 0, 0.9) 37.19%,
-      rgba(0, 0, 0, 0.75) 76.04%,
-      #ffffff 100%
-    );
-    margin-bottom: 70px;
-    .bg_image_pianist {
-      display: flex;
-      justify-content: flex-end;
+    display: inline;
+    a {
+      text-decoration: none;
+      color: white;
     }
-    .background__piano {
-      position: relative;
+  }
+  .options {
+    margin-bottom: 2rem;
+    padding-left: 0;
+    li {
+      padding: 10px;
+    }
+  }
+  .confirm_piano {
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    font-family: $buttons-font;
+    color: white;
+    background: black;
+  }
+}
+@media screen and (min-width: 600px) {
+  .card_new_model {
+    margin-top: 180px;
+    .container {
       display: flex;
-      justify-content: center;
-      align-items: flex-end;
+      flex-direction: row-reverse;
     }
     .pianist {
-      position: absolute;
       width: 100%;
-      opacity: 0.1;
+      height: 39rem;
+    }
+    .background__piano {
+      width: 60%;
+      img {
+        height: 40rem;
+        width: 40rem;
+        margin-top: -75px;
+      }
     }
     .info {
-      color: white;
-      padding: 0 1rem;
-      padding-top: 1rem;
-    }
-    .Rating__star {
-      width: 20px;
-      height: 17px;
-      margin-left: 6px;
-    }
-    .Rating {
-      font-family: $primary-font;
-      font-weight: 600;
-      font-size: 14px;
-      margin-right: 25px;
-    }
-    .description {
-      font-family: $primary-font;
-      font-weight: 400;
-      font-size: 16px;
-      margin-bottom: 2rem;
-    }
-    li {
-      font-family: $primary-font;
-      font-weight: 700;
-      font-size: 16px;
-      display: inline;
-      a {
-        text-decoration: none;
-        color: white;
-      }
-    }
-    .options {
-      margin-bottom: 2rem;
-      padding-left: 0;
-      li {
-        padding: 10px;
-      }
-    }
-    .confirm {
-      width: 18rem;
-      height: 2.5rem;
-      border-radius: 10px;
-      border: 0;
-      color: white;
-      background-color: black;
+      text-align: left;
+      width: 37%;
+      height: 28rem;
     }
   }
-  @media screen and (min-width: 600px) {
-    .card_new_model {
-      margin-top: 180px;
-      .container {
-        display: flex;
-        flex-direction: row-reverse;
-      }
-      .pianist {
-        width: 100%;
-        height: 39rem;
-      }
-      .background__piano {
-        width: 60%;
-        img {
-          height: 40rem;
-          width: 40rem;
-          margin-top: -75px;
-        }
-      }
-      .info {
-        text-align: left;
-        width: 37%;
-        height: 28rem;
-      }
-    }
-  }
+}
