@@ -118,6 +118,11 @@ li {
   border: none;
 }
 
+.animation__button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.75);
+}
+
 /* Styless sección 3 */
 .confirm {
   font-family: "Raleway";
@@ -204,7 +209,7 @@ li {
   justify-content: center;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 992px) {
   .card_new_model {
     margin-top: 180px;
   }
@@ -235,11 +240,13 @@ li {
   }
   .model__card {
     flex-direction: row;
+    margin-top: 40px;
   }
   .model__piano {
     height: 260px;
     margin-bottom: 90px;
     margin-top: 90px;
+    /* justify-content: space-evenly;*/
   }
   .model-piano__image {
     z-index: 1;
