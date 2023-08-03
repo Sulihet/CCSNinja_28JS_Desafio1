@@ -78,7 +78,7 @@
   background-color: black;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 600px) {
   .card_new_model {
     margin-top: 180px;
   }
@@ -232,7 +232,7 @@ li {
   display: flex;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 600px) {
   .cont-social__media {
     visibility: hidden;
   }

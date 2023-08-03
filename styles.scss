@@ -84,7 +84,7 @@
       background-color: black;
     }
   }
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 600px) {
     .card_new_model {
       margin-top: 180px;
       .container {
@@ -224,7 +224,7 @@ li{
 .main__container {
   display: flex;
 }
-@media screen and (max-width: 780px)
+@media screen and (max-width: 600px)
 {
   .cont-social__media { visibility: hidden;}
   .intro__title { font-family: $primary-font; font-size:  32px;}
