@@ -124,6 +124,12 @@ li{
 
 }
 
+.animation__button:hover{
+  cursor: pointer;
+  background-color: #808080;
+
+}
+
 /* Styless sección 3 */
 
 .confirm {
@@ -216,7 +222,7 @@ li{
     justify-content: center;
 
   }
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 992px) {
     .card_new_model {
       margin-top: 180px;
       .container {
@@ -249,7 +255,8 @@ li{
     
     .model__card{
       flex-direction: row;
-    }
+      margin-top: 40px;
+    } 
 
     .model__piano{
       height:260px;
