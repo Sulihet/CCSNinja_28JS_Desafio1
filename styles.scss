@@ -171,17 +171,23 @@
 li{
     font-size: 14px;
 }
-// estilos Gio
+
+
+.introduction__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;}
 
 .intro__slogan {
-  // font-family: Raleway;
+  font-family: $title-font;
   color: rgba(133, 133, 133, 1);
-  size: 16px;
+  font-size: 16px;
 }
 
 .intro__title {
-  // font-family: Abril Fatface;
-  size: 32px;
+  font-family: $primary-font;
+  font-size: 56px;
   color:rgba(0, 0, 0, 1);
 }
 
@@ -190,7 +196,7 @@ li{
    height: 32px;
    border-radius: 8px;
    border: none;
-   // font-family: Poppins;
+   font-family: $buttons-font;
    color: white;
    background: black;
 }
@@ -203,4 +209,25 @@ li{
   border-color: black;
   color: black;
   background: white;
+  border-style: solid;
+}
+.black_piano {
+  width: 600px;
+  height: 450px;
+}
+.cont-social__media {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+.main__container {
+  display: flex;
+}
+@media screen and (max-width: 780px)
+{
+  .cont-social__media { visibility: hidden;}
+  .intro__title { font-family: $primary-font; font-size:  32px;}
+  .black_piano { 
+    width: 251px;
+  height: 194px;}
 }

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .confirm {
   font-family: "Raleway";
   font-weight: 700;
@@ -106,7 +105,7 @@
   }
 }
 * {
-  font-family: “Raleway”;
+  font-family: "Raleway";
   font-size: 16px;
 }
 
@@ -117,7 +116,7 @@
 }
 
 .other-models__title {
-  font-family: “Abril Fatface”;
+  font-family: "Abril Fatface";
   font-size: 32px;
   display: flex;
   justify-content: center;
@@ -130,7 +129,7 @@
 }
 
 .piano__name {
-  font-family: “Abril Fatface”;
+  font-family: "Abril Fatface";
   font-size: 24px;
 }
 
@@ -176,4 +175,73 @@
 
 li {
   font-size: 14px;
+}
+
+.introduction__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro__slogan {
+  font-family: "Abril Fatface";
+  color: rgb(133, 133, 133);
+  font-size: 16px;
+}
+
+.intro__title {
+  font-family: "Raleway";
+  font-size: 56px;
+  color: rgb(0, 0, 0);
+}
+
+.intro__courses {
+  width: 129px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  font-family: "Poppins";
+  color: white;
+  background: black;
+}
+
+.intro__get-piano {
+  width: 129px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px;
+  border-color: black;
+  color: black;
+  background: white;
+  border-style: solid;
+}
+
+.black_piano {
+  width: 600px;
+  height: 450px;
+}
+
+.cont-social__media {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+
+.main__container {
+  display: flex;
+}
+
+@media screen and (max-width: 780px) {
+  .cont-social__media {
+    visibility: hidden;
+  }
+  .intro__title {
+    font-family: "Raleway";
+    font-size: 32px;
+  }
+  .black_piano {
+    width: 251px;
+    height: 194px;
+  }
 }/*# sourceMappingURL=styles.css.map */
