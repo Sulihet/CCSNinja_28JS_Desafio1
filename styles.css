@@ -1,77 +1,66 @@
-.introduction__container {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pazioli-nav__container {
+  height: 90px;
+  width: 90%;
+  max-width: 1200px;
+  padding: 25px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.5px;
+}
+.pazioli-nav__container .pazioli-nav__list {
   display: flex;
-  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
+  gap: 25px;
 }
-
-.intro__slogan {
-  font-family: "Raleway";
-  color: rgb(133, 133, 133);
-  font-size: 16px;
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__logo .pazioli-nav__img {
+  width: 88px;
+  height: 44px;
 }
-
-.intro__title {
-  font-family: "Abril Fatface";
-  font-size: 56px;
-  color: rgb(0, 0, 0);
+.pazioli-nav__container .pazioli-nav__list .pull__right {
+  margin-right: auto;
 }
-
-.intro__courses {
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__link:hover {
+  cursor: pointer;
+  color: rgb(56, 56, 56);
+}
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__link-button {
   width: 129px;
   height: 32px;
-  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
   border: none;
-  font-family: "Poppins";
-  color: white;
-  background: black;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__link-button:hover {
+  background-color: rgb(56, 56, 56);
+  color: #fff;
+}
+.pazioli-nav__container .pazioli-nav__list .pazioli-nav__carrito .pazioli-nav__icon {
+  width: 20px;
+  height: 20px;
 }
 
-.intro__courses:hover {
-  background: rgba(0, 0, 0, 0.75);
-}
-
-.intro__courses:active {
-  background: black;
-}
-
-.intro__get-piano {
-  width: 129px;
-  height: 32px;
-  border-radius: 8px;
-  border: 1px;
-  border-color: black;
-  color: black;
-  background: white;
-  border-style: solid;
-}
-
-.black_piano {
-  width: 600px;
-  height: 450px;
-}
-
-.cont-social__media {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: end;
-}
-
-.main__container {
-  display: flex;
-}
-
-@media screen and (max-width: 780px) {
-  .cont-social__media {
-    visibility: hidden;
-  }
-  .intro__title {
-    font-family: "Raleway";
-    font-size: 32px;
-  }
-  .black_piano {
-    width: 251px;
-    height: 194px;
+@media (max-width: 768px) {
+  a, button {
+    display: none;
   }
 }
 .confirm {
@@ -154,7 +143,7 @@
   background-color: black;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 600px) {
   .card_new_model {
     margin-top: 180px;
   }
@@ -189,6 +178,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 320px;
+  padding: 10px;
 }
 
 .other-models__title {
@@ -200,27 +191,45 @@
 
 .model__card {
   display: flex;
-  justify-content: center;
+  width: 100%;
   flex-direction: column;
+  align-content: center;
+  /* justify-content: center;*/
 }
 
 .piano__name {
+  display: flex;
   font-family: "Abril Fatface";
   font-size: 24px;
+  justify-content: flex-end;
 }
 
 .model__piano {
-  border: none;
-  width: 280px;
-  height: 400px;
+  width: 225px;
+  height: 340px;
   border-radius: 10px;
   margin: 15px;
-  box-shadow: 10px 10px 10px rgb(195, 195, 195);
+  padding: 15px;
+  box-shadow: 0px 0px 20px 8px rgb(195, 195, 195);
+}
+
+.model-piano__image {
+  display: flex;
+  justify-content: center;
+  height: 167px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 18px;
+}
+
+.dashed__line {
+  border-bottom: 1px dashed gray;
 }
 
 .purchase-button__container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .price__button {
@@ -228,6 +237,8 @@
   width: 180px;
   background-color: white;
   border-radius: 5px;
+  margin: 5px;
+  border: black solid;
 }
 
 .price__bold {
@@ -240,15 +251,82 @@
   background: black;
   border: none;
   border-radius: 5px;
+  margin: 5px;
+}
+
+.piano__name {
+  justify-content: left;
 }
 
 .piano__description {
   display: flex;
-  flex-direction: row;
   font-size: 14px;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  padding: 0px;
+  flex-wrap: wrap;
 }
 
 li {
   font-size: 14px;
+}
+
+.button-vermas__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.vermas__button {
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 150px;
+  border-radius: 5px;
+  font-family: "Raleway";
+  font-weight: 600;
+  border: none;
+}
+
+.animation__button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-width: 992px) {
+  .other-models__container {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .model__card {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: space-between;
+  }
+  .model__piano {
+    height: 260px;
+    margin: 90px;
+  }
+  .model-piano__image {
+    z-index: 1;
+    position: relative;
+    top: -100px;
+  }
+  .model-piano-info__container {
+    position: relative;
+    top: -90px;
+  }
+}/*# sourceMappingURL=styles.css.map */
+@media screen and (max-width: 600px) {
+  .cont-social__media {
+    visibility: hidden;
+  }
+  .intro__title {
+    font-family: "Raleway";
+    font-size: 32px;
+  }
+  .black_piano {
+    width: 251px;
+    height: 194px;
+  }
 }/*# sourceMappingURL=styles.css.map */
