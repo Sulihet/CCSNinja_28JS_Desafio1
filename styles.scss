@@ -1,4 +1,5 @@
 @import 'fonts/font.scss';
+@import "introduction.scss";
 //Estilos Hector
 .confirm {
     font-family: $primary-font;
@@ -171,64 +172,4 @@
 }
 li{
     font-size: 14px;
-}
-
-
-.introduction__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  justify-content: center;}
-
-.intro__slogan {
-  font-family: $title-font;
-  color: rgba(133, 133, 133, 1);
-  font-size: 16px;
-}
-
-.intro__title {
-  font-family: $primary-font;
-  font-size: 56px;
-  color:rgba(0, 0, 0, 1);
-}
-
-.intro__courses {
-   width: 129px;
-   height: 32px;
-   border-radius: 8px;
-   border: none;
-   font-family: $buttons-font;
-   color: white;
-   background: black;
-}
-
-.intro__get-piano {
-  width: 129px;
-  height: 32px;
-  border-radius: 8px;
-  border: 1px;
-  border-color: black;
-  color: black;
-  background: white;
-  border-style: solid;
-}
-.black_piano {
-  width: 600px;
-  height: 450px;
-}
-.cont-social__media {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: end;
-}
-.main__container {
-  display: flex;
-}
-@media screen and (max-width: 780px)
-{
-  .cont-social__media { visibility: hidden;}
-  .intro__title { font-family: $primary-font; font-size:  32px;}
-  .black_piano { 
-    width: 251px;
-  height: 194px;}
 }
