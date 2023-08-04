@@ -1,9 +1,5 @@
-//Estilos Hector
-.confirm {
-  font-family: $primary-font;
-  font-weight: 700;
-  font-size: 16px;
-}
+@import "./fonts/font.scss";
+
 .new_model_title {
   font-family: $title-font;
   font-weight: 400;
@@ -105,7 +101,8 @@
     }
     .info {
       text-align: left;
-      width: 37%;
+      margin-top: 5%;
+      width: 30%;
       height: 28rem;
     }
   }
